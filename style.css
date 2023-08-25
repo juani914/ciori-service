@@ -70,9 +70,12 @@ header img{
     background-color: #fff;
 }
 
-@media(max-width:834px){
+@media(max-width:854px){
     .hamburguer{
         display: block;
+    }
+    header img{
+        width: 40%;
     }
 
     .hamburguer.active .bar:nth-child(1){
@@ -108,7 +111,6 @@ header img{
     }
 }
 
-/* styles.css */
 #hero {
     display: flex;
     align-items: center;
@@ -134,10 +136,11 @@ header img{
     font-size: 28px;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 854px) {
     #hero {
       flex-direction: column;
     }
+    
   
     .content {
       margin-top: 100px;
@@ -199,7 +202,7 @@ header img{
 }
 
 /* Estilos para dispositivos móviles */
-@media (max-width: 768px) {
+@media (max-width: 854px) {
     #nosotros {
         flex-direction: column;
         text-align: center;
@@ -207,7 +210,7 @@ header img{
     }
 
     #nosotros img {
-        max-width: 100%; /* Ancho completo en dispositivos móviles */
+        max-width: 100%; 
         margin-top: 1.5rem;
     }
 
@@ -293,7 +296,7 @@ header img{
 }
 
 /* Estilos para dispositivos móviles */
-@media (min-width: 768px) {
+@media (min-width: 854px) {
     .servicio-container {
         flex-direction: row; /* Volver a fila en dispositivos más grandes */
         justify-content: space-around; /* Distribución equitativa */
@@ -403,7 +406,7 @@ header img{
 }
 
 /* Estilos para dispositivos móviles */
-@media (max-width: 768px) {
+@media (max-width: 844px) {
     .proyecto-container {
         display: block; /* Cambiar a bloque para que los proyectos se muestren uno debajo del otro */
         margin-top: 2rem; /* Espaciado superior entre proyectos */
@@ -501,7 +504,7 @@ header img{
     background-color: #00C853;
 }
 /* Estilos para dispositivos móviles */
-@media (max-width: 768px) {
+@media (max-width: 854px) {
     .tecnologias-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* Dos columnas */
